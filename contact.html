@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        
+        <nav>
+          <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="intro.html">MY INTRO</a></li>
+
+            <li><a href="contact.html">contact Me</a></li>
+             
+          </ul>
+        </nav>
+      </div> 
+      <div class="main">
+       <div class="contactform">
+        <h1>Contact me for work and and to work together</h1>
+        <form>
+          <div class="mb-3">
+            <label for="clientemail" class="form-label">Name</label>
+            <input type="text" class="form-control" id="clientname" aria-describedby="nameHelp">
+            <div id="nameHelp" class="form-text"></div>
+          </div>
+          <div class="mb-3">
+            <label for="clientemail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text"></div>
+          </div>
+          <div class="mb-3">
+            <label for="clientphone" class="form-label">phone no</label>
+            <input type="phone" class="form-control" id="clientphone">
+          </div>
+          
+          <div class="statement">we never share you data with anyone</div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+       </div>
+      </div>
+    </div>
+  </body>
+</html>

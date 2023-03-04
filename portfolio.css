@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar
+{
+background-color: rgb(192, 189, 189);
+    width: 250px;
+    height: 1000px;
+    transition: transform 0.3s ease-in;
+    
+    font-size: 21px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sidebar nav{
+    padding: 20px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 20px 10px 20px 10px;
+    
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: black;
+    
+}
+.main{
+    /*background-color: rgb(142, 179, 249);*/
+    color: rgb(36, 37, 37);
+    width: 90vw;
+}
+
+.container
+{
+    display: flex;
+}
+.infocontainer{
+/*    background-color: rgb(245, 152, 225);*/
+
+    height: 78vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.devpic img{
+    height: 78vh;
+}
+.hello{
+   font-size: 50px;
+}
+.name{
+    font-size: 40px;
+    font-weight: bold   
+    
+}
+.about{
+font-size: 30px;
+}
+.button button{
+ margin-top: 25px;
+ margin-right: 15px;
+ padding: 10px;
+ border-radius: 25px;
+ background-color: rgb(7, 136, 241);
+ color: white;
+ font-size: 20px;
+ cursor: pointer;
+}
+
+.button button:hover{
+   color: blue;
+   background-color: white;
+   }
+.contactform h1
+{
+    text-align: center;
+    padding-bottom: 80px;
+}
+.mb-3{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 40;
+    font-size: 20px;
+    
+    
+}
+.contactform{
+    padding-top: 150px;
+    padding-left: 80px;
+}
+.contactform button{
+    margin:17px;
+    font-size: 17px;
+    border-radius: 25px;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(59, 153, 230);
+    
+}
+.contactform button:hover
+{
+    background-color: white;
+}
+
+.statement
+{
+    padding: 20px;
+    color: red;
+}
+input{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    width: 35%;
+    display: flex;
+    
+}
+.intromain h1{
+    color:rgb(46, 45, 45) ;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 50px;
+    padding-bottom: 40px;
+    
+}
+.intromain p{
+    color:rgb(46, 45, 45) ;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+    padding-bottom: 40px;
+    
+}
+.html
+{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-bottom: 20px;
+
+}
+.html button{
+    width: 80%;
+    background-color: red;
+    border-color: red;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    height: 20px;
+    display: flexbox;
+}
+
+.css
+{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.css button{
+    width: 65%;
+    background-color: red;
+    border-color: red;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    height: 20px;
+    display: flexbox;
+}
+.javascript
+{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.javascript button{
+    width: 65%;
+    background-color: red;
+    border-color: red;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    height: 20px;
+    display: flexbox;
+}
+.c
+{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.c button{
+    width: 80%;
+    background-color: red;
+    border-color: red;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    height: 20px;
+    display: flexbox;
+}
+.cpp
+{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.cpp button{
+    width: 70%;
+    background-color: red;
+    border-color: red;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    height: 20px;
+    display: flexbox;
+}
+.python
+{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.python button{
+    width: 60%;
+    background-color: red;
+    border-color: red;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    height: 20px;
+    display: flexbox;
+}
+.languages
+{
+    color: rgb(1, 71, 71);
+    
+}
+@media (max-width:1101px) {
+    *{
+        background-color: aquamarine;
+    }
+    .sidebar
+    {
+        transform: translate(-233px, 0px);
+        position: absolute;
+    }
+
+}
+@media (max-width:3000px) {
+    
+    .devpic img{
+        height: 28vh;
+    }
+
+}
+.hamburger
+{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px ;
+}
+.cross
+{
+    margin-left: 197px;
+    margin-top: 0px;
+}
+.sidebargo
+{
+    transform: translate(-250px,0px);
+    position: absolute;
+}
+
+
+
+
+ 
